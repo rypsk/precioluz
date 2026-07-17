@@ -3,3 +3,11 @@
 # poder instalarse (protección de cadena de suministro). Vercel usa 1 día.
 minimumReleaseAge: 1440
 verifyStoreIntegrity: false
+
+# Dependencias nativas cuyos scripts de instalación son necesarios durante el
+# build de Angular/Vercel.
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - lmdb
+  - msgpackr-extract
