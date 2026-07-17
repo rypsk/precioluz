@@ -1,0 +1,30 @@
+# Angular
+.angular/
+dist/
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.cproject
+.settings/
+.vscode/
+*.swp
+*.bak
+*.tmp
+.DS_Store
+
+# Local environment files
+.env
+.env.local
+src/environments/environment.prod.ts
+src/environments/environment.ts
