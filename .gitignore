@@ -26,5 +26,3 @@ pnpm-debug.log
 # Local environment files
 .env
 .env.local
-src/environments/environment.prod.ts
-src/environments/environment.ts
